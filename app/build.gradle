@@ -37,7 +37,7 @@ android {
 
         applicationId "net.gsantner.markor"
         versionName "1.2.2"
-        versionCode 37
+        versionCode 38
     }
 
     productFlavors {
@@ -51,7 +51,6 @@ android {
             versionCode = Integer.parseInt(new Date().format('yyMMdd'))
             versionName = new Date().format('yyMMdd')
             buildConfigField "boolean", "IS_TEST_BUILD", "true"
-            resValue "string", "manifest_package_id", "net.gsantner.markor_test"
         }
     }
 
